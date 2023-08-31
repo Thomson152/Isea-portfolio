@@ -1,5 +1,5 @@
 // import logo from '../assets/ToyotaLogo_Olympics_Paralympics.svg'
-import {RxHamburgerMenu} from 'react-icons/rx'
+import { RxHamburgerMenu } from "react-icons/rx";
 const Navbar = () => {
   return (
     <header>
@@ -10,16 +10,21 @@ const Navbar = () => {
             <h1 className="text-2xl"> Logo</h1>
           </div>
           <div className="">
-            <ul className="md:flex hidden space-x-14 pr-10 text-[17px] font">
-              <li>Home</li>
-              <li>Contact</li>
-              <li>About</li>
+            <ul className="md:flex hidden space-x-11 pr-20 text-[17px] font">
+              <li className="hover:border hover:px-4 hover:py-2 hover:border-black hover:rounded-full py-2 px-4">
+                <a href="#">Home</a>{" "}
+              </li>
+              <li className="hover:border hover:px-4 hover:py-2 hover:border-black hover:rounded-full py-2 px-4">
+                <a href="#">Contact</a>{" "}
+              </li>
+              <li className="hover:border hover:px-4 hover:py-2 hover:border-black hover:rounded-full py-2 px-4">
+                <a href="#">About</a>{" "}
+              </li>
             </ul>
           </div>
-<div className="md:hidden relative">
-<RxHamburgerMenu className='text-3xl'/>
-</div>
-          
+          <div className="md:hidden relative">
+            <RxHamburgerMenu className="text-3xl" />
+          </div>
         </div>
       </div>
     </header>
