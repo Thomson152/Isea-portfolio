@@ -7,3 +7,34 @@
     font-family: 'Helvetica Neue', sans-serif;
                                                 
 }
+
+.bg{
+    background: url('./assets/img1.png');
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 1058px) {
+    .bg{
+        background: url('./assets/img1.png');
+        background-size: cover;
+        width: 100%;
+        height: fit-content;
+    background-repeat: no-repeat;
+    
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .bg{
+        background: url('./assets/img1.png');
+        background-size: cover;
+        width: 100%;
+        height: fit-content;
+    background-repeat: no-repeat;
+    
+    }
+  }

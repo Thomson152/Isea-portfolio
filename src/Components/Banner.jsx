@@ -1,58 +1,19 @@
-import { useState } from "react";
-import ReactPlayer from "react-player";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import "swiper/css";
-import 'swiper/css/pagination';
-import v1 from '../assets/pepsi.mp4'
-import v2 from '../assets/7up.mp4'
-
+import pepsi from "../assets/pepsi.png";
+import apple from "../assets/apple.svg";
 const Banner = () => {
-  const [isPlaying, setIsPlaying] = useState(null);
-
-  const videodata = [
-    {
-      id: 0,
-      name: "video1",
-      url: v2,
-    },
-    {
-      id: 1,
-      name: "video2",
-      url: v1,
-    },
-  ];
   return (
-    <div>
-      <Swiper
-         modules={[Navigation, Pagination, Scrollbar, A11y]}
-       spaceBetween={50}
-       slidesPerView={1}
-        className="mySwiper"
-        pagination={{ clickable: true }}
-        onSlideChange={() => {
-          setIsPlaying(null);
-        }}
-        autoplay={true}
-        watchSlidesProgress={true}
-      >
-        {videodata.map((data) => (
-          <SwiperSlide key={data.id}>
-            <ReactPlayer
-              key={data.id}
-              url={data.url}
-              width  ='100%'
-
-            
-              controls={true}
-              onPlay={() => {
-                setIsPlaying(data.id);
-              }}
-              playing={isPlaying === data.id}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+    <div className="mt-[100px] bg">
+      <div className="flex md:flex-row mt-10 flex-col-reverse items-center">
+        <div className="">
+          <img
+            src={pepsi}
+            className="md:w-[649px] w-[295px] h-[376px] md:h-[534px]"
+          />
+        </div>
+        <div className="">
+          <img src={apple} className="md:w-[422px] md:h-[282px] w-[300px] h-[200px] " />
+        </div>
+      </div>
     </div>
   );
 };

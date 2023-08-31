@@ -1,4 +1,6 @@
 // import Banner from "../Components/Banner"
+import About from "../Components/About"
+import Banner from "../Components/Banner"
 import BgVideo from "../Components/BgVideo"
 import Navbar from "../Components/Navbar"
 import Tools from "../Components/Tools"
@@ -8,9 +10,13 @@ const HomeScreen = () => {
   return (
     <div>
         <Navbar/>
-        {/* <Banner/> */}
+        
         <BgVideo/>
+        <About/>
+   
+        <Banner/>
         <Tools/>
+
     </div>
   )
 }
