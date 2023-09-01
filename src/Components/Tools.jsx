@@ -6,7 +6,7 @@ const Tools = () => {
   return (
     <div className="mt-[100px] lg:px-20 px-5 mb-5 ">
       <div className="">
-        <h1 className="text-center text-[25px]  lg:text-[38px] font  ">
+        <h1 className="text-center text-[25px] text-slate-600 lg:text-[38px] font  ">
           Shopping Tools
         </h1>
       </div>

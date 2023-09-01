@@ -13,11 +13,11 @@ const Tab = () => {
     <div className="mt-[100px] bg-[#070e29] h-fit py-24 px-5 lg:px-0 flex flex-col justify-center items-center">
 
       <h1 className="text-3xl text-white mb-10 font">Our Works</h1>
-      <div className="lg:w-[800px]  lg:h-[450px]   ">
+      <div className="lg:w-[800px]  lg:h-[500px] ">
         <div className={`${toggleState === 1 ? "block" : "hidden"}`}>
           <video
             src={v1}
-            className="w-full  object-cover"
+            className="w-full h-[500px]    object-cover"
             autoPlay
             loop
             muted
@@ -28,7 +28,7 @@ const Tab = () => {
         <div className={`${toggleState === 2 ? "block" : "hidden"}`}>
           <video
             src={v2}
-            className="w-full  object-cover"
+            className="w-full h-[500px]    object-cover"
             autoPlay
             loop
             muted
@@ -39,7 +39,7 @@ const Tab = () => {
         <div className={`${toggleState === 3 ? "block" : "hidden"}`}>
           <video
             src={v1}
-            className="w-full object-cover"
+            className="w-full h-[500px]    object-cover"
             autoPlay
             loop
             muted
