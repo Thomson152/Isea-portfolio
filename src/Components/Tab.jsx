@@ -49,7 +49,7 @@ const Tab = () => {
       </div>
 
       <div className="">
-        <ul className="flex space-x-5  ">
+        <ul className="flex space-x-1  ">
           <li>
             <button
               onClick={() => toggleTab(1)}
