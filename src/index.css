@@ -10,6 +10,7 @@
 
 .bg{
     background: url('./assets/img1.png');
+    
     background-size: cover;
     width: 100%;
     height: fit-content;

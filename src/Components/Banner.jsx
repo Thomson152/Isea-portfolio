@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="">
           <img
             src={pepsi}
-            className="md:w-[649px] w-[295px] h-[376px] md:h-[534px]"
+            className="md:w-[649px] w-[400px] h-[376px] md:h-[534px]"
           />
         </div>
         <div className="">
