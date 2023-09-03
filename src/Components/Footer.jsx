@@ -11,7 +11,7 @@ const Footer = () => {
         <button className="md:py-5 py-3 ye mt-7 shadow px-[40px] md:px-52 lg:px-72  md:text-2xl text-xl font">
           Get Your Free Proposal
         </button>
-        <p className="mt-5 md:text-2xl font text-lg font-sans text-white">
+        <p className="mt-5 md:text-2xl font text-[16px] font-sans text-white">
           or call{" "}
           <span className="text-yellow-400">
             <a href="tel:091-680-342-28">091-680-342-28</a>{" "}

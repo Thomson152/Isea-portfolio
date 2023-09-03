@@ -12,7 +12,7 @@ const About = () => {
           <img src={img2} className = 'lg:w-[198px] md:w-[100px] w-[70px]  lg:h-[99px]' alt="" />
           <img src={img3} className = 'lg:w-[198px]  md:w-[100px] w-[70px]   lg:h-[139px]' alt="" />
           <img src={img4} className = 'lg:w-[132px] md:w-[100px] w-[70px]   lg:h-[113px]' alt="" />
-          <img src={img5} className = 'lg:w-[132px] md:block hidden md:w-[100px] w-[70px]   lg:h-[113px]' alt="" />
+          <img src={img5} className = 'lg:w-[132px] md:block hidden md:w-[100px] w-[60px]   lg:h-[113px]' alt="" />
          
         </div>
             
