@@ -8,6 +8,14 @@
                                                 
 }
 
+.banner{
+    background: url('./assets/banner.webp');
+    
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+background-repeat: no-repeat  
+}
 .bg{
     background: url('./assets/img1.png');
     
@@ -16,8 +24,16 @@
     height: fit-content;
 background-repeat: no-repeat;
 
+
 }
 
+.ye{
+    background-image: linear-gradient(rgb(255, 200, 62), rgb(239, 155, 45));
+}
+
+.ye :hover{
+    background-image: linear-gradient(rgb(224, 181, 70), rgb(223, 141, 34));
+}
 @media screen and (max-width: 1058px) {
     .bg{
         background: url('./assets/img1.png');

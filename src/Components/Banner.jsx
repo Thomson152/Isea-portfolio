@@ -2,7 +2,7 @@ import pepsi from "../assets/pepsi.png";
 import apple from "../assets/apple.svg";
 const Banner = () => {
   return (
-    <div className="mt-[100px] bg">
+    <div className="bg">
       <div className="flex md:flex-row mt-10 flex-col-reverse items-center">
         <div className="">
           <img
