@@ -13,12 +13,10 @@ const HomeScreen = () => {
     <div>
       <Navbar />
       <BgVideo />
-      <About />
-      <Banner />
-      <Tools />
-      <Tab />
       <Contact />
-      <Footer/>
+      <Banner />
+      <Tab />
+      <Footer />
     </div>
   );
 };

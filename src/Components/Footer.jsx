@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="py-20 bg-[#070e29]">
+    <div className="py-20 mt-16 bg-[#070e29]">
       <div className="flex justify-center flex-col px-3 md:px-0 items-center">
         <h2 className="md:text-4xl text-2xl text-white font">Let’s make things happen</h2>
 

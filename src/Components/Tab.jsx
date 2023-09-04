@@ -1,7 +1,5 @@
 import { useState } from "react";
-import v1 from "../assets/7up.mp4";
-// import viva from '../assets/viva.mp4'
-import v2 from "../assets/pepsi.mp4";
+
 const Tab = () => {
   const [toggleState, setToggleState] = useState(1);
 
@@ -16,7 +14,7 @@ const Tab = () => {
       <div className="lg:w-[800px]  lg:h-[500px] ">
         <div className={`${toggleState === 1 ? "block" : "hidden"}`}>
           <video
-            src={v1}
+            src='https://drive.google.com/uc?id=1i87EupDNPXGmJMx2kA-T-WbX3N1ymS52'
             className="w-full h-[500px]    object-cover"
             autoPlay
             loop
@@ -27,7 +25,7 @@ const Tab = () => {
 
         <div className={`${toggleState === 2 ? "block" : "hidden"}`}>
           <video
-            src={v2}
+            src= 'https://drive.google.com/uc?id=1K4R-zZRXtYC9HrSnOX6PRqZuqV3l_pWk'
             className="w-full h-[500px]    object-cover"
             autoPlay
             loop
@@ -38,7 +36,7 @@ const Tab = () => {
 
         <div className={`${toggleState === 3 ? "block" : "hidden"}`}>
           <video
-            src={v1}
+            src='https://drive.google.com/uc?id=1CSsmX_rOH4f1zM8XX3rigOdx3KdbfYQL'
             className="w-full h-[500px]    object-cover"
             autoPlay
             loop
