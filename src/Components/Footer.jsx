@@ -8,7 +8,7 @@ const Footer = () => {
           Partner with the #1 ranked digital marketing agency - before your
           competitor does.
         </p>
-        <button className="md:py-5 py-3 ye mt-7 shadow px-[40px] md:px-52 lg:px-72  md:text-2xl text-xl font">
+        <button className="md:py-5 py-3 ye mt-7 shadow px-[55px] md:px-52 lg:px-72  md:text-2xl text-xl font">
           Get Your Free Proposal
         </button>
         <p className="mt-5 md:text-2xl font text-[16px] font-sans text-white">

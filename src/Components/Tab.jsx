@@ -8,13 +8,14 @@ const Tab = () => {
   };
 
   return (
-    <div className="mt-[100px] bg-[#070e29] h-fit py-24 px-5 lg:px-0 flex flex-col justify-center items-center">
-
-      <h1 className="md:text-3xl text-xl text-white mb-10 font">Let's Bring Your Ideals To Life</h1>
+    <div className="mt-[20px] bg-[#070e29] h-fit py-24 px-5 lg:px-0 flex flex-col justify-center items-center">
+      <h1 className="md:text-3xl text-xl text-white mb-10 font">
+        Our Portfolio
+      </h1>
       <div className="lg:w-[800px]  lg:h-[500px] ">
         <div className={`${toggleState === 1 ? "block" : "hidden"}`}>
           <video
-            src='https://drive.google.com/uc?id=1i87EupDNPXGmJMx2kA-T-WbX3N1ymS52'
+            src="https://drive.google.com/uc?id=1i87EupDNPXGmJMx2kA-T-WbX3N1ymS52"
             className="w-full h-[500px]    object-cover"
             autoPlay
             loop
@@ -25,7 +26,7 @@ const Tab = () => {
 
         <div className={`${toggleState === 2 ? "block" : "hidden"}`}>
           <video
-            src= 'https://drive.google.com/uc?id=1K4R-zZRXtYC9HrSnOX6PRqZuqV3l_pWk'
+            src="https://drive.google.com/uc?id=1K4R-zZRXtYC9HrSnOX6PRqZuqV3l_pWk"
             className="w-full h-[500px]    object-cover"
             autoPlay
             loop
@@ -36,7 +37,7 @@ const Tab = () => {
 
         <div className={`${toggleState === 3 ? "block" : "hidden"}`}>
           <video
-            src='https://drive.google.com/uc?id=1CSsmX_rOH4f1zM8XX3rigOdx3KdbfYQL'
+            src="https://drive.google.com/uc?id=1CSsmX_rOH4f1zM8XX3rigOdx3KdbfYQL"
             className="w-full h-[500px]    object-cover"
             autoPlay
             loop

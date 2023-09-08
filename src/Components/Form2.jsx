@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { useRef } from "react";
+import { Link } from "react-router-dom";
+import Steps from "./Steps";
 import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
-
-import Steps from "./Steps";
-
-const Form = ({ history }) => {
+const Form2 = ({ history }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,9 +20,9 @@ const Form = ({ history }) => {
       .then(
         (result) => {
           console.log("Email sent successfully!");
-         
+          toast.success("Email sent successfully!");
           if (result) {
-            history.push("/form2");
+            history.push("/form3");
           }
         },
         (error) => {
@@ -40,7 +39,7 @@ const Form = ({ history }) => {
       <p className="text-lg text-center font mt-1">
         by partnering with SmartSites
       </p>
-      <Steps step1 />
+      <Steps step1 step2 />
       <form
         ref={form}
         onSubmit={sendEmail}
@@ -48,34 +47,32 @@ const Form = ({ history }) => {
       >
         <input
           type="text"
-          name="name"
+          name="company"
+
           required
-          className="py-4 rounded px-2 font-sans text-lg text-black required outline-none"
-          placeholder="Full Name"
+          className="py-4 rounded px-2 font-sans text-xl text-black required outline-none"
+          placeholder="Company"
         />
         <input
-          type="email"
+          type="text"
+          name="service"
           required
-          name="email"
-          className="py-4 rounded px-2 font-sans text-lg text-black required outline-none"
-          placeholder="Email Address"
+          className="py-4 rounded px-2 font-sans text-xl text-black required outline-none"
+          placeholder="Service You Are Intrested In"
         />
         <input
-          type="number"
-          name="phonenumber"
+          type="text"
+          name="help"
           required
-          className="py-4 rounded px-2 font-sans text-lg text-black aria-required: outline-none"
-          placeholder="Phone Number"
+          className="py-4 rounded px-2 font-sans text-xl text-black required outline-none"
+          placeholder="How Can We Help You"
         />
-        <button
-          type="submit"
-          className="ye md:py-4 py-3 md:text-2xl font text-xl hover:bg-orange-500 text-black font"
-        >
-          Get Your Free Proposal
+        <button className="ye md:py-4 py-3 md:text-2xl font text-xl hover:bg-orange-500 text-black font">
+          Get Started
         </button>
       </form>
     </div>
   );
 };
 
-export default Form;
+export default Form2;
