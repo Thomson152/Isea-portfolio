@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className=" flex justify-between px-5 items-center">
+        <div className=" flex lg:hidden justify-between px-5 items-center">
           <h1 className="text-2xl text-white font"> Logo</h1>
           <div className="">
             <a href="tel:091-680-342-28">

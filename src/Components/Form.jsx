@@ -50,21 +50,21 @@ const Form = ({ history }) => {
           type="text"
           name="name"
           required
-          className="py-4 rounded px-2 font-sans text-lg text-black required outline-none"
+          className="py-4 rounded px-2 font text-base text-black required outline-none"
           placeholder="Full Name"
         />
         <input
           type="email"
           required
           name="email"
-          className="py-4 rounded px-2 font-sans text-lg text-black required outline-none"
+          className="py-4 rounded px-2 font text-base text-black required outline-none"
           placeholder="Email Address"
         />
         <input
           type="number"
           name="phonenumber"
           required
-          className="py-4 rounded px-2 font-sans text-lg text-black aria-required: outline-none"
+          className="py-4 rounded px-2 font text-base text-black aria-required: outline-none"
           placeholder="Phone Number"
         />
         <button

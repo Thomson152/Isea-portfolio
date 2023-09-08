@@ -6,15 +6,15 @@ import Steps from "./Steps";
 const Form3 = () => {
   return (
     <div>
-      <div className="mt-1 md:px-3 ">
+      <div className="mt-1 md:px-3 pt-2 ">
         <h1 className="md:text-4xl text-2xl text-left font">Success!</h1>
 
-        <p className="md:text-lg text-base font-sans mt-2">
+        <p className="md:text-lg text-base font mt-2">
           Thank you for considering SmartSites for your digital growth. We will
           contact you within one business day.
         </p>
 
-        <h3 className="text-lg font mt-3">What you can do now:</h3>
+        <h3 className="text-lg font mt-5">What you can do now:</h3>
 
         <div className="flex space-y-2 flex-col mt-3 ">
           <div className="flex items-center space-x-4">
