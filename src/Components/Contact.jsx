@@ -18,7 +18,7 @@ const Contact = () => {
       </div>
 
       <div className="mt-10">
-        <div className="bg-[#070e29] md:w-[500px] lg:max-w-[450px] text-white md:py-14 py-16 md:px-6 px-2">
+        <div className="bg-[#070e29] md:w-[500px] lg:max-w-[450px] text-white md:py-14 py-16 md:px-6 px-4">
           <div>
             <Router>
               <Route path="/" component={Form} exact />

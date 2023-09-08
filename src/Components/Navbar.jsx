@@ -14,7 +14,8 @@ const Navbar = () => {
           </div>
           <div className="">
             <h1 className="text-white lg:block hidden font text-3xl">
-              Let's Talk <span className="text-yellow-500">201-870-6000</span>{" "}
+              
+              Let's Talk <a href="tel:091-680-342-28" className="text-yellow-500">091-680-342-28</a>{" "}
             </h1>
           </div>
         </div>

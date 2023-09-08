@@ -19,8 +19,8 @@ const Form3 = () => {
         <div className="flex space-y-2 flex-col mt-3 ">
           <div className="flex items-center space-x-4">
             <FaPhoneAlt className="text-yellow-500 text-lg" />
-            <a className="md:text-lg text-base hover:text-yellow-400 font" href="#">
-              Call 201 870 6000
+            <a className="md:text-lg text-base hover:text-yellow-400 font" href="tel:091-680-342-28">
+              Call  091-680-342-28  {" "}
             </a>
           </div>
           <div className="flex items-center space-x-4">
